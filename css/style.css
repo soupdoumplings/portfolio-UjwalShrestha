@@ -93,3 +93,8 @@ h1 {
 h2 {
 	margin: 2vh;
 }
+
+.additionalInfo {
+	display: Flex;
+	height: 100vh;
+}
