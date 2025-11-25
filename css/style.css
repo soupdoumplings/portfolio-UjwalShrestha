@@ -1,11 +1,14 @@
 body {
-	color: #e9bcb7;
-	font-size: 22px;
+	color: #FCBFB7;
+	font-size: 27px;
+	font-family: 'Great Vibes', serif;
+	font-weight: 600;
+	letter-spacing: 0.03em;
 }
 
 header {
 
-	background-color: #06070e;
+	background-color: #FAB62F;
 	padding: 2.5vh;
 }
 
@@ -24,12 +27,12 @@ header {
 
 .navLeft{
 	position: relative;
-	left: 7vh;
+	left: 1%;
 }
 
 .navRight{
 	position: relative;
-	left: -10vh;
+	left: -1%;
 }
 
 ul {
@@ -40,7 +43,7 @@ ul {
 
 
 a {
-  color: #e9bcb7;
+  color: #6C4971;
   font-weight: bold;
   text-decoration: 	none;
 }
@@ -54,17 +57,24 @@ a {
 
 #profilePicture{
 	position: relative;
-	right: -12%;
+	top: 7px;
+	right: -8%;
+}
+
+#profilePicture img {
+	width: 70%;
+	height: fixed;
 }
 
 #aboutMe{
 	width: auto;
+	padding: 0 5% 0 0;
 	display: grid;
 	gap: 5px;
 	grid-template-columns: 1fr 1fr;
 	position: relative;
-	left: 12vh;
-	top: 2.5vh;
+	left: 4%;
+	border-right: solid #FCBFB7 1px;
 }
 
 #heading {
@@ -72,12 +82,17 @@ a {
 }
 
 .bio {
-	width: 300px;
+	width: 413px;
 	grid-column: auto;
 	position: relative;
 }
 h1 {
 	font-size: 125px;
+	font-family: 'Bodoni Moda', serif;
+	text-decoration: overline;
+	font-weight: 800;
+	letter-spacing: 0.3em;
+	text-transform: uppercase;
 }
 
 #myBio{
@@ -92,9 +107,97 @@ h1 {
 
 h2 {
 	margin: 2vh;
+	text-decoration: overline;
+	font-family: 'Bodoni Moda', serif;
 }
 
 .additionalInfo {
-	display: Flex;
 	height: 100vh;
+	background-color: #FAB62F;
+	color: #684778;
+}
+
+
+.projectGrid{
+	display: grid;
+	width: 450px;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: auto auto;
+	gap: 20px;
+	position: relative;
+	top: 25px;
+}
+
+.box2{
+	width: 585px;
+	grid-column: 2;
+	grid-row: 1;
+	position: relative;
+	left: 6%;
+	
+}
+
+.box1{
+	width: 585px;
+	grid-column: 1;
+	grid-row: 2;
+	position: relative;
+	left: 12%;
+}
+
+.box3{
+	width: 585px;
+	grid-column: 3;
+	grid-row: 2;
+	position: relative;
+	left: -.5%;
+}
+
+.box{
+	background: #7570B3;
+	height: 400px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 8px;
+	font-weight: bold;
+	opacity: 1;
+}
+
+.imageWrapper {
+	display: block;
+	text-align: center;
+	margin: 0;
+}
+
+.imageWrapper img {
+	width: 95%;
+	height: 60%px;
+	position: relative;
+	top: -4%;
+	border-radius: 8px;
+	box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+	opacity: 1;
+}
+
+.imageWrapper figcaption {
+	display: block;
+  margin-top: 8px;
+  color: #FCBFB7;
+  text-decoration: overline;
+}
+.proficiency {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	position: relative;
+	top: -35%;
+	left: .25%;
+}
+
+footer, .contactMe {
+	background-color: #29524A;
+	padding: 10vh 0;
 }
